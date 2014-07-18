@@ -1,0 +1,16 @@
+#
+# dependency list for pip
+#
+
+# runtime
+requests
+
+# build
+
+# essential tools
+Paver >= 1.2.1
+pylint >= 1.0.0
+
+# helpful tools
+bpython
+yolk
