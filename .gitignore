@@ -4,3 +4,6 @@ lib/
 include/
 local/
 share/
+
+# editable pip dependencies
+src/cobblestones/
