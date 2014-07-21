@@ -9,6 +9,8 @@ psutil >= 2.1.1
 -e git+https://github.com/jhermann/influxdb-python.git#egg=influxdb-python
 
 # build
+setuptools >= 5.4.1
+virtualenv >= 1.11.6
 docutils >= 0.11
 Sphinx == 1.1.3
 markdown2
