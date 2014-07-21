@@ -3,8 +3,10 @@
 #
 
 # runtime
-requests
-cement
+requests >= 2.3.0
+cement >= 2.2.2
+psutil >= 2.1.1
+-e git+https://github.com/jhermann/influxdb-python.git#egg=influxdb-python
 
 # build
 docutils >= 0.11
@@ -14,4 +16,4 @@ markdown2
 
 # essential tools
 Paver >= 1.2.1
-pylint >= 1.0.0
+pylint >= 1.2.1
