@@ -8,3 +8,9 @@ share/
 # editable pip dependencies
 src/cobblestones/
 src/influxdb-python/
+
+# debian build
+debian/sdist/
+debian/files
+debian/neutrino-wand/
+debian/neutrino-wand.substvars

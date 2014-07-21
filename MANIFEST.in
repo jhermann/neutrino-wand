@@ -3,12 +3,13 @@
 #
 # More at http://docs.python.org/distutils/sourcedist.html
 
-include README.md
-include LICENSE
-include pavement.py
-include setup.py
-include paver-minilib.zip
-include setup.cfg
-include pylint.cfg
+include README.md LICENSE
+include pavement.py setup.py paver-minilib.zip
+include setup.cfg pylint.cfg
+include requirements.txt  tools-requirements.txt
 
-recursive-include debian changelog
+graft debian
+prune debian/neutrino-wand
+prune debian/sdist
+recursive-exclude debian *.log *.substvars files
+

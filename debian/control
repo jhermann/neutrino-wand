@@ -1,0 +1,17 @@
+Source: neutrino-wand
+Section: contrib/python
+Priority: extra
+Maintainer: Jürgen Hermann <jh@web.de>
+Build-Depends: debhelper (>= 9), python, dh-virtualenv, tar
+Standards-Version: 3.9.5
+X-Python-Version: 2.7
+Homepage: https://github.com/jhermann/neutrino-wand
+
+Package: neutrino-wand
+Architecture: any
+Depends: ${python:Depends}, ${misc:Depends}
+Recommends: influxdb
+Description: Neutrino Wand captures metrics and events.
+    .
+    Neutrino Wand catches those elusive metrics and events,
+    and captures them in InfluxDB or other data sinks.
